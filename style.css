@@ -1,0 +1,274 @@
+.card card-header img{
+    height: 100px;
+}
+main {
+    background: #000;
+}
+.row1 {
+    margin-top: 20px;
+    height: 630px;
+}
+.captain {
+    border: 1px solid #050505ee;
+    border-radius: 50px;
+    font-weight: 500;
+    color: #000;
+    font-size: 20px;
+    position: relative;
+   z-index: 9;
+   transition: all ease 0.4s;
+   overflow: hidden;
+
+}
+.captain a::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    left: 0;
+    bottom: -100%;
+    border-radius: 60%;
+    transition: all ease 0.4s;
+   
+
+}
+.captain a:hover::after{
+    bottom: 0;
+   border-radius: 0;
+  
+}
+.captain a:hover {
+   color: white;
+}
+.ironman {
+    border: 1px solid #050505ee;
+    border-radius: 50px;
+    font-weight: 500;
+    color: #000;
+    font-size: 20px;
+    position: relative;
+   z-index: 9;
+   transition: all ease 0.4s;
+   overflow: hidden;
+
+}
+.ironman a::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    left: 0;
+    bottom: -100%;
+    border-radius: 60%;
+    transition: all ease 0.4s;
+   
+
+}
+.ironman a:hover::after{
+    bottom: 0;
+   border-radius: 0;
+  
+}
+.ironman a:hover {
+   color: white;
+}
+.spiderman {
+    border: 1px solid #050505ee;
+    border-radius: 50px;
+    font-weight: 500;
+    color: #000;
+    font-size: 20px;
+    position: relative;
+   z-index: 9;
+   transition: all ease 0.4s;
+   overflow: hidden;
+
+}
+.spiderman a::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    left: 0;
+    bottom: -100%;
+    border-radius: 60%;
+    transition: all ease 0.4s;
+   
+
+}
+.spiderman a:hover::after{
+    bottom: 0;
+   border-radius: 0;
+  
+}
+.spiderman a:hover {
+   color: white;
+}
+.supergirl {
+    border: 1px solid #050505ee;
+    border-radius: 50px;
+    font-weight: 500;
+    color: #000;
+    font-size: 20px;
+    position: relative;
+   z-index: 9;
+   transition: all ease 0.4s;
+   overflow: hidden;
+
+}
+.supergirl a::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    left: 0;
+    bottom: -100%;
+    border-radius: 60%;
+    transition: all ease 0.4s;
+   
+
+}
+.supergirl a:hover::after{
+    bottom: 0;
+   border-radius: 0;
+  
+}
+.supergirl a:hover {
+   color: white;
+}
+.hulk {
+    border: 1px solid #050505ee;
+    border-radius: 50px;
+    font-weight: 500;
+    color: #000;
+    font-size: 20px;
+    position: relative;
+   z-index: 9;
+   transition: all ease 0.4s;
+   overflow: hidden;
+
+}
+.hulk a::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    left: 0;
+    bottom: -100%;
+    border-radius: 60%;
+    transition: all ease 0.4s;
+   
+
+}
+.hulk a:hover::after{
+    bottom: 0;
+   border-radius: 0;
+  
+}
+.hulk a:hover {
+   color: white;
+}.barry {
+    border: 1px solid #050505ee;
+    border-radius: 50px;
+    font-weight: 500;
+    color: #000;
+    font-size: 20px;
+    position: relative;
+   z-index: 9;
+   transition: all ease 0.4s;
+   overflow: hidden;
+
+}
+.barry a::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    left: 0;
+    bottom: -100%;
+    border-radius: 60%;
+    transition: all ease 0.4s;
+   
+
+}
+.barry a:hover::after{
+    bottom: 0;
+   border-radius: 0;
+  
+}
+.barry a:hover {
+   color: white;
+}
+.batman {
+    border: 1px solid #050505ee;
+    border-radius: 50px;
+    font-weight: 500;
+    color: #000;
+    font-size: 20px;
+    position: relative;
+   z-index: 9;
+   transition: all ease 0.4s;
+   overflow: hidden;
+
+}
+.batman a::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    left: 0;
+    bottom: -100%;
+    border-radius: 60%;
+    transition: all ease 0.4s;
+   
+
+}
+.batman a:hover::after{
+    bottom: 0;
+   border-radius: 0;
+  
+}
+.batman a:hover {
+   color: white;
+}
+.Superman {
+    border: 1px solid #050505ee;
+    border-radius: 50px;
+    font-weight: 500;
+    color: #000;
+    font-size: 20px;
+    position: relative;
+   z-index: 9;
+   transition: all ease 0.4s;
+   overflow: hidden;
+
+}
+.Superman a::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    left: 0;
+    bottom: -100%;
+    border-radius: 60%;
+    transition: all ease 0.4s;
+   
+
+}
+.Superman a:hover::after{
+    bottom: 0;
+   border-radius: 0;
+  
+}
+.s
+Superman a:hover {
+   color: white;
+}
