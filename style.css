@@ -1,13 +1,13 @@
-.card card-header img{
+/* .card card-header img{
     height: 100px;
-}
+} */
 main {
     background: #000;
 }
-.row1 {
+/* .row1 {
     margin-top: 20px;
-    height: 630px;
-}
+    height: 630px; */
+
 .captain {
     border: 1px solid #050505ee;
     border-radius: 50px;
@@ -228,11 +228,13 @@ main {
     border-radius: 60%;
     transition: all ease 0.4s;
    
+   
 
 }
 .batman a:hover::after{
     bottom: 0;
    border-radius: 0;
+   
   
 }
 .batman a:hover {
@@ -266,9 +268,31 @@ main {
 .Superman a:hover::after{
     bottom: 0;
    border-radius: 0;
+   
   
 }
 .s
-Superman a:hover {
+.Superman a:hover {
    color: white;
+}
+main img{
+    border-radius: 1.5rem;
+    
+}
+.card-body{
+    width: 280px;
+    background-color: var(--container-color);
+    padding: 5px;
+    box-shadow: 0px 8px 24px hsla(0, 0%, 0%, .15) ;
+    text-align: center
+}
+.card{
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.main{
+    text-transform: none;
+}
+.card-body a:hover{
+    color: white;
 }
