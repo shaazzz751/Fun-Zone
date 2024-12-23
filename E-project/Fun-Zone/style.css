@@ -10,78 +10,52 @@ body {
 
 }
 
-.para {
-   
-    font-family: "Roboto", serif;
-    font-weight: 900;
-    margin-top: 5px;
-    color: rgba(246, 245, 244, 0.959);
-    border-color: black;
-    border-color: rgb(255, 132, 0) solid 90px;
+.para {}
 
-}
 
-.para p {
-    /* background: -webkit-linear-gradient(#0808f8);
-   
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
-}
 
 .exp {
 
     color: Orange;
     font-weight: 800;
     font-size: 60px;
-    font-family: "Roboto", serif;
+    /*    */
 
 
 }
 
-.exp h1 {}
+
 
 .bg {
-    /* margin-top: -20px;
-    background: -webkit-linear-gradient(rgb(151, 62, 62), rgb(172, 76, 220));
-    -webkit-border-after: rgb(246, 238, 17) solid 4px;
-    -webkit-border-before: rgb(255, 251, 0) solid 4px; */
-    background-image: url(images/ybg.jpg);
-    
-    
-   
+
+    background-color: rgb(36, 35, 35);
 }
-.image11{
-    height: 100%;
-    width: 100%;
-    margin-left: 30%;
+
+.display-2 {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+
+    margin-top: 5px;
+    color: rgba(0, 250, 208, 0.959);
+
+
+
 }
 
 
-.animate__bounceInUp {
-    animation-duration: 2s;
-}
 
-.animate_fadeInUp {
-    animation-delay: 6s;
-}
 
-.para2 {
-    color: white;
-    font-family: "Roboto", serif;
-}
 
-.title1 {
-    color: whitesmoke;
-    font-weight: 400;
-}
 
 .img {
+
     border-radius: 30px;
+
+    height: 350px;
+    width: 100%;
 }
 
-.imgtxt {
-    
-}
+
 
 .img1 {
     margin-top: 20px;
@@ -89,33 +63,162 @@ body {
 
 .bttn {
 
-    background-color: rgb(255, 145, 0);
+    color: rgba(12, 13, 14, 0.767);
     padding: 10px;
-    border-radius: 30px;
+    border-radius: 20px;
     width: 200px;
     height: 50px;
+    border: black solid 1px;
+
 }
 
 .banner {
 
     width: 100%;
-    height: 550px;
-    
+    height: 600px;
+
 
 
 }
 
 .bttn:hover {
+    background: -webkit-linear-gradient(rgb(8, 238, 226), rgb(0, 70, 75));
+   
+    transition: 2s;
+
+    color: rgb(3, 3, 3);
+
+
+
+}
+
+.display-5 {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+
+
+}
+
+.section1 {
+    /* From https://css.glass */
+
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px);
+    /* -webkit-backdrop-filter: blur(5px); */
+    background: -webkit-radial-gradient(rgba(102, 46, 204, 0.705), rgb(36, 36, 36));
+    border: 1px solid rgba(131, 8, 168, 0.342);
+    height: 800px;
+    width: 450px;
+    margin-bottom: 20px;
+    padding: 10px;
+   
+    box-shadow: 10px 20px 10px black;
+
+}
+
+.section1 h5 {
+    margin-top: 10px;
+    color: white;
+}
+
+.section2 h5 {
+    margin-top: 10px;
+    color: white;
+}
+
+.text {
+    margin-top: 70px;
+    font-size: 19px;
+    font-family: "Roboto", serif;
+    color: white;
+
+}
+
+.section2 {
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px);
+    /* -webkit-backdrop-filter: blur(5px); */
+    background: -webkit-radial-gradient(rgb(4, 126, 163), rgb(36, 36, 36));
+    border: 1px solid rgba(5, 207, 21, 0.342);
+    height: 800px;
+    width: 450px;
+    margin-bottom: 20px;
+    box-shadow: 10px 20px 10px black;
+    padding: 10px;
+}
+
+.section3 {
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px);
+    /* -webkit-backdrop-filter: blur(5px); */
+    background: -webkit-radial-gradient(rgb(0, 26, 170), rgb(36, 36, 36));
+    border: 1px solid rgba(0, 4, 255, 0.651);
+    height: 800px;
+    width: 450px;
+    margin-bottom: 20px;
+    box-shadow: 10px 20px 10px black;
+    padding: 10px;
+}
+
+.section4 {
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px);
+    /* -webkit-backdrop-filter: blur(5px); */
+    background: -webkit-radial-gradient(rgb(1, 70, 173), rgb(36, 36, 36));
+    border: 1px solid rgba(0, 92, 230, 0.774);
+    height: 800px;
+    width: 450px;
+    margin-bottom: 20px;
+    box-shadow: 10px 20px 10px black;
+    padding: 10px;
+}
+
+.card1 {
+    animation-delay: 0.1s;
+}
+
+.card2 {
+    animation-delay: 0.2s;
+}
+
+.card3 {
+    animation-delay: 0.3s
+}
+
+.card4 {
+    animation-delay: 0.5s;
+}
+.bg2{
+    width: 100%;
+    height: 850px;
     
 }
-.section1{
-    /* From https://css.glass */
-background: rgba(187, 145, 54, 0.302);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(4px);
--webkit-backdrop-filter: blur(5px);
-border: 1px solid rgb(250, 143, 13);
-
+.mobilebox{
+    height: 800px;
+    width: 500px;
+    border-radius: 30px;
+    background: rgb(75, 74, 74);
+   margin-top: 17px;
+   box-shadow: 10px 20px 10px black;
+   justify-items: end;
+  background-image: url(images/map.PNG);
+   
 
 }
+.mbox{
+    margin-top: 30px;
+    font-size: 30px;
+    margin-right: 20px;
+   
+    
+    
+  
+}
+
+
