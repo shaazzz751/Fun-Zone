@@ -1,0 +1,72 @@
+
+body{
+    background-color: black;
+    
+}
+.head{
+    color: white;
+    font-size: 60px;
+    font-style: oblique;
+}
+.row{
+    display: flex;
+    margin-top: 52px;
+}
+.jim h2{
+    color: greenyellow;
+    font-size: 28px;
+    
+}
+.jim h3{
+    
+    color: greenyellow  ;
+    
+}
+.content1{
+    color: white;
+    font-size: 23px;
+    padding-top: 5px;
+    margin-left: 25px;
+    line-height: 35px;
+}
+.row2{
+    display: flex;
+    margin-top: 200px;
+}
+.jim h5{
+    color: #0094FF;
+    font-size: 28px;
+    
+}
+@media (max-width: 1199px) and (min-width: 639px) {
+    .row2,.row{
+         display: grid;
+    }
+   
+    .jim h3{
+        font-size: 2.8em;
+    }
+
+    .content1 {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 30px;
+    }
+}
+@media (max-width: 640px) {
+    .row2,.row{
+        display: grid;
+   }
+   .images23{
+    height: 300px;
+   }
+
+
+    .jim h3 {
+        font-size: 1.8em;
+    }
+
+    .content1 {
+        padding: 15px;
+    }
+}
